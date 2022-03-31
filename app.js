@@ -2,7 +2,11 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-app.listen(3000, () => console.log("levantando servidor con express"));
+const PORT =
+  process.env.PORT ||
+  (3000, () => console.log("levantando servidor con express"));
+
+app.listen(PORT);
 
 app.use(express.static(path.join(__dirname, "public")));
 
