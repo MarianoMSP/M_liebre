@@ -1,0 +1,122 @@
+body {
+  font-family: "Roboto";
+  font-size: 12px;
+}
+
+.bg-main {
+  background-color: #eac926;
+}
+
+.bg-blue {
+  background-color: #03264c;
+}
+
+.bg-light-blue {
+  background-color: #1259c3;
+}
+
+.bg-green {
+  background-color: #39b54a;
+}
+
+.bg-light-gray {
+  background-color: #ebebeb;
+}
+
+.text-green {
+  color: #39b54a;
+}
+
+.text-dark-gray {
+  color: #666;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.padding-y-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.margin-y-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.main-form {
+  font-size: 18px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+
+  margin-bottom: 16px;
+}
+
+.radio-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkbox-input {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.button-primary {
+  background-color: #1259c3;
+  color: white;
+  width: 100%;
+  display: block;
+}
+
+.button-gray {
+  background-color: #666;
+  color: white;
+  width: 100%;
+  display: block;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.burger-menu {
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  font-size: 24px;
+  border-radius: 5px;
+  background-color: #1259c3;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  margin-top: 8px;
+}
+
+.send-button:hover {
+  background-color: #0022aa;
+}
+
+.top-header {
+  display: flex;
+}
