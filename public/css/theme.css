@@ -35,6 +35,10 @@ body {
   text-align: center;
 }
 
+.width-80 {
+  width: 80%;
+}
+
 .width-50 {
   width: 50%;
 }
@@ -119,4 +123,9 @@ main {
 
 .top-header {
   display: flex;
+}
+
+.footer-card {
+  flex-direction: column;
+  justify-content: center;
 }

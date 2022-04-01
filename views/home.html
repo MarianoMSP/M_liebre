@@ -30,15 +30,15 @@
         <h1 class="width-50">
           <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" />
         </h1>
-        <form id="search-form">
-          <input type="search" name="search" id="search" />
+        <form id="search-form top-header">
+          <input class="width-80" type="search" name="search" id="search" />
           <button type="submit" id="search-btn">
             <i class="fas fa-search"></i>
           </button>
         </form>
         <p class="text-center">
           <i class="fas fa-hand-holding-usd"></i>
-          Comprá en cuotas y sin tarjeta de crédito
+          Compra en cuotas y sin tarjeta de crédito
         </p>
       </section>
       <nav>
@@ -57,7 +57,9 @@
             <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
           </li>
           <li>
-            <a href="">Mis Compras <i class="fas fa-shopping-basket"></i></a>
+            <a href="/mis_compras"
+              >Mis Compras <i class="fas fa-shopping-basket"></i
+            ></a>
           </li>
         </ul>
       </nav>
@@ -75,7 +77,20 @@
           <article class="product-card">
             <img
               class="width-100"
-              src="/images/img-cafetera-moulinex.jpg"
+              src="/images/img-Mirrorless Nikon-Z-Fc-Kit-16-50-Mm-F3.5-6.3-Vr-Z.jpg"
+              alt=""
+            />
+            <div class="description-box">
+              <i class="text-green delivery-icon fas fa-truck"></i>
+              <p class="price">$ 376.770</p>
+              <p class="discount text-green">5% OFF</p>
+              <h3 class="description text-dark-gray">Cafetera Moulinex</h3>
+            </div>
+          </article>
+          <article class="product-card">
+            <img
+              class="width-100"
+              src="/images/img-macbook-pro-2019.jpg"
               alt=""
             />
             <div class="description-box">
@@ -88,7 +103,7 @@
           <article class="product-card">
             <img
               class="width-100"
-              src="/images/img-cafetera-moulinex.jpg"
+              src="/images/img-samsung-galaxy-s10.jpg"
               alt=""
             />
             <div class="description-box">
@@ -101,20 +116,7 @@
           <article class="product-card">
             <img
               class="width-100"
-              src="/images/img-cafetera-moulinex.jpg"
-              alt=""
-            />
-            <div class="description-box">
-              <i class="text-green delivery-icon fas fa-truck"></i>
-              <p class="price">$ 6.770</p>
-              <p class="discount text-green">40% OFF</p>
-              <h3 class="description text-dark-gray">Cafetera Moulinex</h3>
-            </div>
-          </article>
-          <article class="product-card">
-            <img
-              class="width-100"
-              src="/images/img-cafetera-moulinex.jpg"
+              src="/images/img-tv-samsung-smart.jpg"
               alt=""
             />
             <div class="description-box">
@@ -132,78 +134,84 @@
           <article class="product-card">
             <img
               class="width-100"
-              src="/images/img-cafetera-moulinex.jpg"
+              src="/images/img-Aprende-Linux-En-5-Dias.jpg"
               alt=""
             />
             <div class="description-box">
               <i class="text-green delivery-icon fas fa-truck"></i>
-              <p class="price">$ 6.770</p>
-              <p class="discount text-green">40% OFF</p>
-              <h3 class="description text-dark-gray">Cafetera Moulinex</h3>
+              <p class="price">$ 6.750</p>
+              <p class="discount text-green">20% OFF</p>
+              <h3 class="description text-dark-gray">
+                Aprendé linux en 5 días
+              </h3>
             </div>
           </article>
           <article class="product-card">
             <img
               class="width-100"
-              src="/images/img-cafetera-moulinex.jpg"
+              src="/images/img-Libro-Domine Javascript.jpg"
               alt=""
             />
             <div class="description-box">
               <i class="text-green delivery-icon fas fa-truck"></i>
-              <p class="price">$ 6.770</p>
-              <p class="discount text-green">40% OFF</p>
-              <h3 class="description text-dark-gray">Cafetera Moulinex</h3>
+              <p class="price">$ 15.770</p>
+              <p class="discount text-green">10% OFF</p>
+              <h3 class="description text-dark-gray">Domine JavaScript</h3>
             </div>
           </article>
           <article class="product-card">
             <img
               class="width-100"
-              src="/images/img-cafetera-moulinex.jpg"
+              src="/images/img-Libro-Introduccion-A-Node_js.jpg"
               alt=""
             />
             <div class="description-box">
               <i class="text-green delivery-icon fas fa-truck"></i>
-              <p class="price">$ 6.770</p>
+              <p class="price">$ 19.755</p>
               <p class="discount text-green">40% OFF</p>
-              <h3 class="description text-dark-gray">Cafetera Moulinex</h3>
+              <h3 class="description text-dark-gray">
+                Libro Introducción a Node.JS
+              </h3>
             </div>
           </article>
           <article class="product-card">
             <img
               class="width-100"
-              src="/images/img-cafetera-moulinex.jpg"
+              src="/images/img-Tilo-Premium-Bulgaria-1kg.jpg"
               alt=""
             />
             <div class="description-box">
               <i class="text-green delivery-icon fas fa-truck"></i>
-              <p class="price">$ 6.770</p>
-              <p class="discount text-green">40% OFF</p>
-              <h3 class="description text-dark-gray">Cafetera Moulinex</h3>
+              <p class="price">TILO PREMIUM BULGARIA</p>
+              <p class="discount text-green">DE REGALO</p>
+              <h3 class="description text-dark-gray">
+                para despues de estudiar
+              </h3>
             </div>
           </article>
         </section>
       </section>
     </main>
-    <footer class="container-footer">
-      <section>
+    <footer class="bg-light-gray text-center padding-8">
+      <section class="padding-8">
         <p><i class="fas fa-credit-card"></i></p>
         <h2>Titulo</h2>
         <p>Descripcion</p>
       </section>
 
-      <section>
+      <section class="padding-8">
         <p><i class="fas fa-gift"></i></p>
         <h2>Titulo</h2>
         <p>Descripcion</p>
       </section>
 
-      <section>
+      <section class="padding-8">
         <p><i class="fas fa-user-shield"></i></p>
         <h2>Titulo</h2>
         <p>Descripcion</p>
       </section>
 
-      <span>Copyright</span>
+      <span>Copyright Mariano Pivotto</span>
     </footer>
   </body>
 </html>
